@@ -1,0 +1,69 @@
+
+  .logoArea {
+    height: 140px;
+    /*border: 1px solid purple; */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sidebarLogo1{
+    position: absolute;
+    width: 80px;
+    height: 15px;
+    left: 155px;
+    top: 100px;
+    
+    background: linear-gradient(270deg, #00E4A1 0%, #00D495 100%);
+    border-radius: 13.5056px;
+  }
+  .sidebarLogo2{
+    position: absolute;
+    width: 51.77px;
+    height: 15px;
+    left: 155px;
+    top: 125px;
+    
+    background: linear-gradient(270deg, #00E4A1 0%, #00D495 100%);
+    border-radius: 13.5056px;
+    
+  }
+  .sidebarLogo3{
+    position: absolute;
+    width: 34.28px;
+    height: 15px;
+    left: 155px;
+    top: 150px;
+    
+    background: linear-gradient(270deg, #00E4A1 0%, #00D495 100%);
+    border-radius: 13.5056px;
+    
+  }
+  .sidebarTitle>h2{
+    position: absolute;
+    width: 166px;
+    height: 49px;
+    left: 80px;
+    top: 200.16px;
+    
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 49px;   
+  }
+  
+
+  .sidebarItem {
+    margin-top: 140px;
+    font-size: 18px;
+  }
+  
+  .SidebarItemInner {
+    padding:40px 115px;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  

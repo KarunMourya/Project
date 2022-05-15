@@ -1,0 +1,30 @@
+.layoutContentMain{
+    position: absolute;
+width: 1000px;
+height: 1000px;
+left: 400px;
+top: 58px;
+z-index: 1;
+background: #FFFFFF;
+box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.05);
+border-radius: 30px;
+}
+.centeralcontainer {
+    background-color: white;
+    width: 97%;
+    height: 97%;
+    border-radius: 30px;
+  }
+  .layoutContentSide{
+    position: absolute;
+width: 550px;
+height: 1000px;
+left: 1300px;
+top: 58px;
+background: #FFFFFF;
+box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.05);
+border-radius: 30px;
+}
+.sidecontainer{
+margin-left: -20px;
+}

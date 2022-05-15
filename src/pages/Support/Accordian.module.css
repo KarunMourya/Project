@@ -1,0 +1,24 @@
+.accordionitem {
+  width: 685px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  top: 50.6px;
+  background: #FFFFFF;
+  border: 2.18501px solid #C8C8C8;
+  box-sizing: border-box;
+  border-radius: 8.74003px;
+  }
+  .accordioncontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .accordioncontent,.accordionitem{
+    padding: 10px;
+  }
+  .questiontitle {
+    cursor: pointer;
+  }

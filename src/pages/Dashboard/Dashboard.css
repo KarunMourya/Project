@@ -1,0 +1,17 @@
+.user_dashboard{
+    position: absolute;
+width: 1000px;
+height: 1001px;
+left: 400px;
+top: 58px;
+
+background: #FFFFFF;
+box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.05);
+border-radius: 30px;
+}
+.middle_container {
+    background-color: white;
+    width: 97%;
+    height: 97%;
+    border-radius: 30px;
+  }

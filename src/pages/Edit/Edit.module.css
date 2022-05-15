@@ -1,0 +1,75 @@
+input:focus{
+  outline: none;
+  border: 1px solid #64d488;
+}
+input[type="file"] {
+  display: none;
+}
+.editcontainer{
+    position: absolute;
+    left:120px;
+    top:12px;
+}
+.editheading{
+    display: flex;
+    flex-direction:row ;
+}
+
+.formgroup{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Maven Pro';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 20px;
+color: #2A2C41;
+}
+.group>strong,.group>Button{
+  margin-left: 5%;
+}
+
+.customfileupload {
+  border-radius: 50%;
+  width: 220px;
+  margin-left: 25%;
+  height: 220px;
+  display: inline-block;
+position: relative;
+  padding: 10px;
+  cursor: pointer;
+  background: linear-gradient(180deg, #3fa1a9, #79f1a4);
+  margin-bottom: 30px;
+}
+
+.imgwrap{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.imgupload:before{
+  content: "\f093";
+  font-size: 90px;
+  position: absolute;
+  padding-top: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #63d3a6;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fff;
+}
+.imgupload:hover:before{
+ opacity: 1;
+}
+img {
+  width: auto;
+  height: 100%;
+}
